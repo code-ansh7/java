@@ -37,6 +37,15 @@ This folder contains the programs I created while learning Object-Oriented Progr
 - Abstract and Normal Methods Together
 - Multi-Level Abstraction
 - Abstraction with Runtime Polymorphism
+- Introduction to Interface
+* Interface Methods
+* Interface Variables
+* implements Keyword
+* Interface Reference Variables
+* Runtime Polymorphism using Interface
+* Multiple Interface Implementation
+* Abstract Class with Interface
+* Interface vs Abstract Class
 
 ## Programs
 
@@ -65,6 +74,12 @@ This folder contains the programs I created while learning Object-Oriented Progr
 - AbstractConstructorDemo.java
 - AbstractionWithPolymorphismDemo.java
 - MultiLevelAbstractDemo.java
+- InterfaceBasicDemo.java
+* InterfaceReferenceDemo.java
+* MultipleInterfaceDemo.java
+* InterfacePolymorphismDemo.java
+* AbstractClassWithInterfaceDemo.java
+* InterfaceVariablesDemo.java
 
 ## What I Learned
 
@@ -100,21 +115,54 @@ This folder contains the programs I created while learning Object-Oriented Progr
 - Runtime polymorphism works with abstract classes.
 - Multi-level abstraction is possible in Java.
 - Abstract classes are used to define common rules for child classes.
+- An interface defines a set of rules for classes.
+* Interfaces cannot be instantiated.
+* Interface methods are public and abstract by default.
+* Interface variables are public, static and final by default.
+* A class uses the implements keyword to implement an interface.
+* A class can implement multiple interfaces.
+* Runtime polymorphism can be achieved using interfaces.
+* An abstract class can implement an interface without implementing all methods.
 
-## Current Progress
+ ## Current Progress
 
-* Class and Object
-* Methods
-* Constructors
-* Encapsulation
-* Inheritance
-* Method Overriding
-* Runtime Polymorphism
-* Upcasting
-* Downcasting
-- Abstraction
-- Abstract Class
-- Abstract Method
+### Java Fundamentals
 
+✅ Variables and Data Types
+✅ Operators
+✅ Conditional Statements (if-else, switch)
+✅ Loops (for, while, do-while)
+✅ Methods
+✅ Arrays
+✅ Strings (Basics)
+
+### Object Oriented Programming (OOP)
+
+✅ Classes and Objects
+✅ Constructors
+✅ this Keyword
+✅ Encapsulation
+✅ Inheritance
+✅ Method Overriding
+✅ Runtime Polymorphism
+✅ Upcasting and Downcasting
+✅ Abstraction
+✅ Abstract Classes
+✅ Interfaces
+
+### GitHub Progress
+
+✅ Daily Java Practice Uploads
+✅ Organized Topic-wise Folder Structure
+✅ README Documentation
+✅ Consistent Commit History
+
+### Upcoming Topics
+
+🔄 Exception Handling
+🔄 Collections Framework
+🔄 File Handling
+🔄 Mini Java Projects
+🔄 DSA with Java
 
 More OOP concepts will be added as I continue learning Java.
