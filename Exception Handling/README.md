@@ -14,6 +14,11 @@
 * Multiple Catch Blocks
 * Exception Type Inspection
 * User Input Validation
+* finally Block
+* try-catch-finally Flow
+* Resource Cleanup Concept
+* Multiple Catch with finally
+* Program Execution Flow after Exception
 
 ### Programs Added
 
@@ -23,6 +28,8 @@
 * InputRetryDemo.java
 * MultipleCatch.java
 * UserInputExceptionDemo.java
+* FinallyBlockDemo.java
+* MultipleCatchFinallyDemo.java
 
 ### What I Learned
 
@@ -34,6 +41,11 @@
 * Multiple catch blocks can handle different exception types.
 * Scanner input errors can be handled using try-catch.
 * Invalid input can be cleared using sc.nextLine().
+* The finally block executes whether an exception occurs or not.
+* finally is commonly used for cleanup tasks.
+* Program execution continues after exception handling.
+* Multiple catch blocks can handle different exception types.
+* finally executes after try-catch blocks.
 
 ### Status
 
@@ -42,10 +54,12 @@
 ✅ Exception Object Completed
 ✅ Multiple Catch Completed
 ✅ User Input Exception Handling Completed
+✅ finally Block Completed
+✅ Multiple Catch with finally Completed
+✅ Execution Flow Understanding Completed
 
 ### Next Topic
 
-* finally Block
 * throw Keyword
 * throws Keyword
 * Custom Exceptions
