@@ -19,6 +19,14 @@
 * Resource Cleanup Concept
 * Multiple Catch with finally
 * Program Execution Flow after Exception
+* throw Keyword
+* throws Keyword
+* Exception Propagation
+* Checked Exceptions
+* Unchecked Exceptions
+* Exception Object Creation
+* throw vs throws
+* Responsibility Passing using throws
 
 ### Programs Added
 
@@ -30,6 +38,12 @@
 * UserInputExceptionDemo.java
 * FinallyBlockDemo.java
 * MultipleCatchFinallyDemo.java
+* ThrowBasicDemo.java
+* ThrowWithCatchDemo.java
+* ThrowWithFinallyDemo.java
+* BankBalanceThrowDemo.java
+* throwsBasicDemo.java
+* ThrowsExample.java
 
 ### What I Learned
 
@@ -46,6 +60,15 @@
 * Program execution continues after exception handling.
 * Multiple catch blocks can handle different exception types.
 * finally executes after try-catch blocks.
+* throw is used to manually create and generate exceptions.
+* throws is used to declare possible exceptions in a method.
+* throw creates an exception object.
+* throws does not create an exception object.
+* Exception responsibility can be passed to the calling method using throws.
+* Checked exceptions require try-catch or throws.
+* Unchecked exceptions do not require throws.
+* Exception propagation means passing an exception from one method to another.
+* catch(Exception e) does not create a new object; it stores the reference of an existing exception object.
 
 ### Status
 
@@ -57,9 +80,15 @@
 ✅ finally Block Completed
 ✅ Multiple Catch with finally Completed
 ✅ Execution Flow Understanding Completed
+✅ throw Keyword Completed
+✅ throws Keyword Completed
+✅ Exception Propagation Completed
+✅ Checked vs Unchecked Exceptions Completed
+✅ throw vs throws Completed
 
 ### Next Topic
 
-* throw Keyword
-* throws Keyword
-* Custom Exceptions
+ * Custom Exception
+ * Real World Exception Handling Problems
+ * Output Prediction Questions
+ * Exception Handling Revision
