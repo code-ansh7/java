@@ -36,7 +36,6 @@
 
 ### Upcoming Topics
 
-🔄 throw & throws
 🔄 Custom Exceptions
 🔄 Collections Framework
 🔄 File Handling
