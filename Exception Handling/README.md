@@ -27,6 +27,19 @@
 * Exception Object Creation
 * throw vs throws
 * Responsibility Passing using throws
+* Custom Exception
+* User Defined Exception
+* Creating Custom Exceptions using extends Exception
+* Constructor in Custom Exception
+* super(msg)
+* Custom Exception Object Creation
+* throw with Custom Exception
+* Real World Validation using Custom Exceptions
+* InvalidAgeException
+* InsufficientBalanceException
+* InvalidMarksException
+* InvalidPasswordException
+* Application Specific Exception Handling
 
 ### Programs Added
 
@@ -44,6 +57,10 @@
 * BankBalanceThrowDemo.java
 * throwsBasicDemo.java
 * ThrowsExample.java
+* VotingSystem.java
+* BankManagement.java
+* StudentMarksValidator.java
+* LoginSystem.java
 
 ### What I Learned
 
@@ -69,6 +86,16 @@
 * Unchecked exceptions do not require throws.
 * Exception propagation means passing an exception from one method to another.
 * catch(Exception e) does not create a new object; it stores the reference of an existing exception object.
+* Custom Exceptions are user-defined exceptions created by programmers.
+* Custom Exceptions are created by extending the Exception class.
+* Constructors can be used to pass custom error messages.
+* super(msg) passes the message to the parent Exception class.
+* throw is used to generate Custom Exceptions.
+* Custom Exceptions help in handling application-specific rules.
+* catch blocks can handle Custom Exceptions just like built-in exceptions.
+* e.getMessage() returns the custom message passed to the exception object.
+* Custom Exceptions make programs more meaningful and user-friendly.
+* Exception Handling can be used to implement real-world validations.
 
 ### Status
 
@@ -85,10 +112,22 @@
 ✅ Exception Propagation Completed
 ✅ Checked vs Unchecked Exceptions Completed
 ✅ throw vs throws Completed
+✅ Custom Exception Completed
+✅ User Defined Exception Completed
+✅ extends Exception Completed
+✅ Constructor in Custom Exception Completed
+✅ super(msg) Completed
+✅ throw with Custom Exception Completed
+✅ Real World Validation Completed
+✅ Voting System Validation Completed
+✅ Bank Balance Validation Completed
+✅ Marks Validation Completed
+✅ Password Validation Completed
 
 ### Next Topic
 
- * Custom Exception
- * Real World Exception Handling Problems
- * Output Prediction Questions
- * Exception Handling Revision
+* Mixed Exception Handling Questions
+* Output Prediction Questions
+* Exception Handling Revision
+* Exception Handling Mastery
+* Advanced Practice Programs
